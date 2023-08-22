@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: rgb(238,230,211);
+    background: linear-gradient(180deg, rgba(238,230,211,0.8632703081232493) 1%, rgba(183,188,189,0.9781162464985994) 84%, rgba(116,116,116,0.25262605042016806) 100%);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background: #000f;
+    border-top: 3px solid #F37A1D;
+}
